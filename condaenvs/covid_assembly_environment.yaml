@@ -1,0 +1,13 @@
+name: covid_assembly_env
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - bwa
+  - minimap2
+  - samtools
+  - bcftools
+  - ivar
+  - trimmomatic
+  - nextclade

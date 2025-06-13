@@ -1,0 +1,8 @@
+name: tablet_env
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - bandage
+  - qt>=5.15

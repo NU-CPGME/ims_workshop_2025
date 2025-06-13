@@ -1,0 +1,14 @@
+name: short_assembly_env
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - spades
+  - kraken
+  - fastp
+  - checkm-genome
+  - busco
+  - bwa
+  - blast
+  - quast
